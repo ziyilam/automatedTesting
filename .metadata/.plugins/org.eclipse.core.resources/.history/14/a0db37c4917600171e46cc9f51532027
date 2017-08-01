@@ -1,0 +1,24 @@
+2017-08-01 16:16:42,218 INFO  [Log] Total TestCases: 3 
+2017-08-01 16:16:42,219 INFO  [Log] TestData sheet ColCount: 4 
+2017-08-01 16:16:42,225 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-08-01 16:16:42,225 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-08-01 16:16:42,225 INFO  [Log] TestCase no.: 1 
+2017-08-01 16:16:42,226 INFO  [Log] TestCaseID: login 
+2017-08-01 16:16:42,226 INFO  [Log] sRunMode: yes 
+2017-08-01 16:16:42,226 INFO  [Log] - 
+2017-08-01 16:16:42,226 INFO  [Log] - 
+2017-08-01 16:16:42,226 INFO  [Log] - 
+2017-08-01 16:16:42,226 INFO  [Log] TestCase no.: 2 
+2017-08-01 16:16:42,227 INFO  [Log] TestCaseID: verify 
+2017-08-01 16:16:42,227 INFO  [Log] sRunMode: no 
+2017-08-01 16:16:42,227 INFO  [Log] - 
+2017-08-01 16:16:42,227 INFO  [Log] - 
+2017-08-01 16:16:42,227 INFO  [Log] - 
+2017-08-01 16:16:42,227 INFO  [Log] TestCase no.: 3 
+2017-08-01 16:16:42,227 INFO  [Log] TestCaseID: logout 
+2017-08-01 16:16:42,227 INFO  [Log] sRunMode: no 
+2017-08-01 16:16:42,227 INFO  [Log] - 
+2017-08-01 16:16:42,227 INFO  [Log] - 
+2017-08-01 16:16:42,227 INFO  [Log] - 
+2017-08-01 16:16:42,227 INFO  [Log] ......No more TestCase with 'Yes' RunMode...... 
+2017-08-01 16:16:42,227 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 

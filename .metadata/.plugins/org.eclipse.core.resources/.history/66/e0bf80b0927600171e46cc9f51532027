@@ -144,7 +144,7 @@ public class DriverScript {
 
 		try {
 			for (int i = 0; i < method.length; i++) {
-				if (method[i].getName().equalsIgnoreCase(sActionKeyword)) {
+				if (method[i].getName().equals(sActionKeyword)) {
 					method[i].invoke(actionKeywords, sObjectLocator, sActionKeyword, sTestDataItem);
 					Log.info("Executed TestData Item: " + sTestDataItem);
 					if (bResult == true) {
@@ -161,14 +161,6 @@ public class DriverScript {
 						// Log.info("close browser from TestStep loop");
 						break;
 							}
-				}
-				else {
-					Log.warn("......No such keyword......" + sActionKeyword);
-					bResult = false;
-					Log.info("bResult:..." + bResult + "...for iStartTestStep:..." + iCountTestStep);
-					ExcelUtils.setCellData(Constants.KEYWORD_FAIL, iCountTestStep, Constants.Col_StepResults,
-							Constants.Sheet_TestSteps);
-					break;
 				}
 			}
 
@@ -197,8 +189,8 @@ public class DriverScript {
 
 	private void fetch_TestData(String sTestData) throws Exception {
 		try {
-			//String str = sTestData.toLowerCase();
-			switch (sTestData.toLowerCase()) {
+			sTestData.toLowerCase();
+			switch (sTestData) {
 			case "username":
 				iCellHeaderIndex = alCellHeader.indexOf("username");
 				sTestDataItem = ExcelUtils.getCellData(iCountTestData, iCellHeaderIndex, Constants.Sheet_TestData);

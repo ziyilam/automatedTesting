@@ -1,0 +1,66 @@
+2017-08-01 16:36:39,149 INFO  [Log] Total TestCases: 3 
+2017-08-01 16:36:39,150 INFO  [Log] TestData sheet ColCount: 4 
+2017-08-01 16:36:39,155 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-08-01 16:36:39,155 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-08-01 16:36:39,156 INFO  [Log] TestCase no.: 1 
+2017-08-01 16:36:39,156 INFO  [Log] TestCaseID: login 
+2017-08-01 16:36:39,156 INFO  [Log] sRunMode: yes 
+2017-08-01 16:36:39,156 INFO  [Log] - 
+2017-08-01 16:36:39,156 INFO  [Log] - 
+2017-08-01 16:36:39,156 INFO  [Log] - 
+2017-08-01 16:36:39,156 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:36:39,156 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:36:39,156 INFO  [Log] -------------------             login TestStep begins                ------------------- 
+2017-08-01 16:36:39,156 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:36:39,156 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:36:39,157 INFO  [Log] 1st TestStep at row: 1 
+2017-08-01 16:36:39,157 INFO  [Log] Last TestStep at row: 7 
+2017-08-01 16:36:39,158 INFO  [Log] 1st TestData at row: 1 
+2017-08-01 16:36:39,158 INFO  [Log] Last TestData at row: 2 
+2017-08-01 16:36:39,158 INFO  [Log] Test start for new TestData 
+2017-08-01 16:36:39,158 INFO  [Log] - 
+2017-08-01 16:36:39,158 INFO  [Log] - 
+2017-08-01 16:36:39,158 INFO  [Log] - 
+2017-08-01 16:36:39,158 INFO  [Log] TestStep row no.: 1 
+2017-08-01 16:36:39,159 INFO  [Log] Fetching TestData Item: chrome 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,159 WARN  [Log] ......No such keyword......eat 
+2017-08-01 16:36:39,378 INFO  [Log] Test result: FAIL written successfully on: TestCases of DataEngine.xlsx 
+2017-08-01 16:36:39,378 WARN  [Log] ......Test Case Failed for login...... 
+2017-08-01 16:36:39,378 INFO  [Log] - 
+2017-08-01 16:36:39,378 INFO  [Log] - 
+2017-08-01 16:36:39,379 INFO  [Log] - 
+2017-08-01 16:36:39,379 INFO  [Log] Action......Closing the browser 
+2017-08-01 16:36:39,379 ERROR [Log] TestStepID: TS_1 ActionKeywords|tryClose. Exception Message - null 
+2017-08-01 16:36:39,379 INFO  [Log] close browser from TestCase loop 
+2017-08-01 16:36:39,379 INFO  [Log] --------------------------------TestCase login Ended------------------------------------ 
+2017-08-01 16:36:39,379 INFO  [Log] - 
+2017-08-01 16:36:39,379 INFO  [Log] - 
+2017-08-01 16:36:39,379 INFO  [Log] - 
+2017-08-01 16:36:39,379 INFO  [Log] - 
+2017-08-01 16:36:39,380 INFO  [Log] TestCase no.: 2 
+2017-08-01 16:36:39,380 INFO  [Log] TestCaseID: verify 
+2017-08-01 16:36:39,380 INFO  [Log] sRunMode: no 
+2017-08-01 16:36:39,380 INFO  [Log] - 
+2017-08-01 16:36:39,381 INFO  [Log] - 
+2017-08-01 16:36:39,381 INFO  [Log] - 
+2017-08-01 16:36:39,381 INFO  [Log] TestCase no.: 3 
+2017-08-01 16:36:39,381 INFO  [Log] TestCaseID: logout 
+2017-08-01 16:36:39,381 INFO  [Log] sRunMode: no 
+2017-08-01 16:36:39,381 INFO  [Log] - 
+2017-08-01 16:36:39,381 INFO  [Log] - 
+2017-08-01 16:36:39,381 INFO  [Log] - 
+2017-08-01 16:36:39,381 INFO  [Log] ......No more TestCase with 'Yes' RunMode...... 
+2017-08-01 16:36:39,382 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 

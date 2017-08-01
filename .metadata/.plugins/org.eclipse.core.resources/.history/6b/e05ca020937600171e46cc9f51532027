@@ -1,0 +1,55 @@
+2017-08-01 16:26:08,225 INFO  [Log] Total TestCases: 3 
+2017-08-01 16:26:08,226 INFO  [Log] TestData sheet ColCount: 4 
+2017-08-01 16:26:08,233 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-08-01 16:26:08,233 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-08-01 16:26:08,233 INFO  [Log] TestCase no.: 1 
+2017-08-01 16:26:08,233 INFO  [Log] TestCaseID: login 
+2017-08-01 16:26:08,233 INFO  [Log] sRunMode: yes 
+2017-08-01 16:26:08,233 INFO  [Log] - 
+2017-08-01 16:26:08,233 INFO  [Log] - 
+2017-08-01 16:26:08,233 INFO  [Log] - 
+2017-08-01 16:26:08,233 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:26:08,234 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:26:08,234 INFO  [Log] -------------------             login TestStep begins                ------------------- 
+2017-08-01 16:26:08,234 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:26:08,234 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 16:26:08,234 INFO  [Log] 1st TestStep at row: 1 
+2017-08-01 16:26:08,235 INFO  [Log] Last TestStep at row: 7 
+2017-08-01 16:26:08,235 INFO  [Log] 1st TestData at row: 1 
+2017-08-01 16:26:08,235 INFO  [Log] Last TestData at row: 2 
+2017-08-01 16:26:08,235 INFO  [Log] Test start for new TestData 
+2017-08-01 16:26:08,235 INFO  [Log] - 
+2017-08-01 16:26:08,236 INFO  [Log] - 
+2017-08-01 16:26:08,236 INFO  [Log] - 
+2017-08-01 16:26:08,236 INFO  [Log] TestStep row no.: 1 
+2017-08-01 16:26:08,236 INFO  [Log] Fetching TestData Item: chrome 
+2017-08-01 16:26:17,846 INFO  [Log] Action......Opening the browser 
+2017-08-01 16:26:17,846 INFO  [Log] Executed TestData Item: chrome 
+2017-08-01 16:26:17,846 INFO  [Log] bResult: true for iStartTestStep: 1 
+2017-08-01 16:26:17,852 ERROR [Log] ExcelUtils|setCellData. Exception Message - .\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2017-08-01 16:26:17,855 ERROR [Log] ExcelUtils|setCellData. Exception Message - .\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2017-08-01 16:26:17,855 WARN  [Log] ......Test Case Failed for login...... 
+2017-08-01 16:26:17,855 INFO  [Log] - 
+2017-08-01 16:26:17,855 INFO  [Log] - 
+2017-08-01 16:26:17,855 INFO  [Log] - 
+2017-08-01 16:26:17,855 INFO  [Log] Action......Closing the browser 
+2017-08-01 16:26:18,002 INFO  [Log] close browser from TestCase loop 
+2017-08-01 16:26:18,002 INFO  [Log] --------------------------------TestCase login Ended------------------------------------ 
+2017-08-01 16:26:18,003 INFO  [Log] - 
+2017-08-01 16:26:18,003 INFO  [Log] - 
+2017-08-01 16:26:18,003 INFO  [Log] - 
+2017-08-01 16:26:18,003 INFO  [Log] - 
+2017-08-01 16:26:18,003 INFO  [Log] TestCase no.: 2 
+2017-08-01 16:26:18,003 INFO  [Log] TestCaseID: verify 
+2017-08-01 16:26:18,003 INFO  [Log] sRunMode: no 
+2017-08-01 16:26:18,003 INFO  [Log] - 
+2017-08-01 16:26:18,003 INFO  [Log] - 
+2017-08-01 16:26:18,003 INFO  [Log] - 
+2017-08-01 16:26:18,003 INFO  [Log] TestCase no.: 3 
+2017-08-01 16:26:18,004 INFO  [Log] TestCaseID: logout 
+2017-08-01 16:26:18,004 INFO  [Log] sRunMode: no 
+2017-08-01 16:26:18,004 INFO  [Log] - 
+2017-08-01 16:26:18,004 INFO  [Log] - 
+2017-08-01 16:26:18,004 INFO  [Log] - 
+2017-08-01 16:26:18,004 INFO  [Log] ......No more TestCase with 'Yes' RunMode...... 
+2017-08-01 16:26:18,004 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
