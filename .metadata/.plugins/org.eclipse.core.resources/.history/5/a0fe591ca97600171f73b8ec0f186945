@@ -18,7 +18,7 @@ public class ActionKeywords {
 
 	public void openBrowser(String sObjectLocator, String sActionKeyword, String sTestData) {
 		try {
-			switch (sTestData.toLowerCase()) {
+			switch (sTestData) {
 			case "chrome":
 				System.setProperty(Constants.Chrome_Property1, Constants.Chrome_Property2);
 				driver = new ChromeDriver();
