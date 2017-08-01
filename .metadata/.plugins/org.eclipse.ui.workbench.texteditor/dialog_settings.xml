@@ -6,12 +6,14 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="setCellData" key="selection"/>
+		<item value="Test Data Item" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Test Data Item"/>
+			<item value="The Test Data Item"/>
 			<item value="setCellData"/>
 			<item value="new"/>
 			<item value="alCellHeader"/>

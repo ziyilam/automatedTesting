@@ -141,10 +141,11 @@ public class DriverScript {
 	}
 
 	private static void execute_Action() throws Exception {
-
+		Boolean bKeyword = false;
 		try {
 			for (int i = 0; i < method.length; i++) {
 				if (method[i].getName().equalsIgnoreCase(sActionKeyword)) {
+					bKeyword = true;
 					method[i].invoke(actionKeywords, sObjectLocator, sActionKeyword, sTestDataItem);
 					Log.info("Executed TestData Item: " + sTestDataItem);
 					if (bResult == true) {
@@ -162,14 +163,21 @@ public class DriverScript {
 						break;
 							}
 				}
-				else {
+				/*else {
 					Log.warn("......No such keyword......" + sActionKeyword);
 					bResult = false;
 					Log.info("bResult:..." + bResult + "...for iStartTestStep:..." + iCountTestStep);
 					ExcelUtils.setCellData(Constants.KEYWORD_FAIL, iCountTestStep, Constants.Col_StepResults,
 							Constants.Sheet_TestSteps);
 					break;
-				}
+				}*/
+			}
+			if (bKeyword == false) {
+				Log.warn("......No such keyword......" + sActionKeyword);
+				bResult = false;
+				Log.info("bResult:..." + bResult + "...for iStartTestStep:..." + iCountTestStep);
+				ExcelUtils.setCellData(Constants.KEYWORD_FAIL, iCountTestStep, Constants.Col_StepResults,
+						Constants.Sheet_TestSteps);
 			}
 
 		} catch (Exception e) {

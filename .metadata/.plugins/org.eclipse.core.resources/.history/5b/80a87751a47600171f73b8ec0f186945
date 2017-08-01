@@ -1,0 +1,132 @@
+2017-08-01 18:28:46,457 INFO  [Log] Total TestCases: 3 
+2017-08-01 18:28:46,458 INFO  [Log] TestData sheet ColCount: 4 
+2017-08-01 18:28:46,465 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-08-01 18:28:46,465 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-08-01 18:28:46,465 INFO  [Log] TestCase no.: 1 
+2017-08-01 18:28:46,465 INFO  [Log] TestCaseID: login 
+2017-08-01 18:28:46,465 INFO  [Log] sRunMode: yes 
+2017-08-01 18:28:46,465 INFO  [Log] - 
+2017-08-01 18:28:46,465 INFO  [Log] - 
+2017-08-01 18:28:46,465 INFO  [Log] - 
+2017-08-01 18:28:46,465 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 18:28:46,465 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 18:28:46,465 INFO  [Log] -------------------             login TestStep begins                ------------------- 
+2017-08-01 18:28:46,465 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 18:28:46,465 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 18:28:46,466 INFO  [Log] 1st TestStep at row: 1 
+2017-08-01 18:28:46,466 INFO  [Log] Last TestStep at row: 7 
+2017-08-01 18:28:46,467 INFO  [Log] 1st TestData at row: 1 
+2017-08-01 18:28:46,467 INFO  [Log] Last TestData at row: 2 
+2017-08-01 18:28:46,467 INFO  [Log] Test start for new TestData 
+2017-08-01 18:28:46,467 INFO  [Log] - 
+2017-08-01 18:28:46,467 INFO  [Log] - 
+2017-08-01 18:28:46,467 INFO  [Log] - 
+2017-08-01 18:28:46,467 INFO  [Log] TestStep row no.: 1 
+2017-08-01 18:28:46,468 INFO  [Log] Fetching TestData Item: chrome 
+2017-08-01 18:28:53,715 INFO  [Log] Action......Opening the browser 
+2017-08-01 18:28:53,715 INFO  [Log] Executed TestData Item: chrome 
+2017-08-01 18:28:53,716 INFO  [Log] bResult: true for iStartTestStep: 1 
+2017-08-01 18:28:54,021 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:28:54,021 INFO  [Log] TestStep row no.: 2 
+2017-08-01 18:28:54,022 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 18:28:54,022 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="page-container"]/div[5]/input 
+2017-08-01 18:28:54,656 INFO  [Log] Executed TestData Item:  
+2017-08-01 18:28:54,656 INFO  [Log] bResult: true for iStartTestStep: 2 
+2017-08-01 18:28:54,781 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:28:54,781 INFO  [Log] TestStep row no.: 3 
+2017-08-01 18:28:54,781 INFO  [Log] Fetching TestData Item: 0197768799 
+2017-08-01 18:28:54,781 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="username"] 
+2017-08-01 18:28:54,907 INFO  [Log] Executed TestData Item: 0197768799 
+2017-08-01 18:28:54,907 INFO  [Log] bResult: true for iStartTestStep: 3 
+2017-08-01 18:28:55,040 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:28:55,040 INFO  [Log] TestStep row no.: 4 
+2017-08-01 18:28:55,042 INFO  [Log] Fetching TestData Item: 999999 
+2017-08-01 18:28:55,042 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="Password"] 
+2017-08-01 18:28:55,156 INFO  [Log] Executed TestData Item: 999999 
+2017-08-01 18:28:55,156 INFO  [Log] bResult: true for iStartTestStep: 4 
+2017-08-01 18:28:55,351 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:28:55,351 INFO  [Log] TestStep row no.: 5 
+2017-08-01 18:28:55,352 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="btnSubmitLogin"] 
+2017-08-01 18:28:56,104 INFO  [Log] Executed TestData Item:  
+2017-08-01 18:28:56,104 INFO  [Log] bResult: true for iStartTestStep: 5 
+2017-08-01 18:28:56,223 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:28:56,223 INFO  [Log] TestStep row no.: 6 
+2017-08-01 18:28:56,223 INFO  [Log] Fetching TestData Item: 0197768799 
+2017-08-01 18:28:56,223 INFO  [Log] Action......Try Verify text 
+2017-08-01 18:28:56,325 INFO  [Log] Text verified 
+2017-08-01 18:28:56,325 INFO  [Log] Executed TestData Item: 0197768799 
+2017-08-01 18:28:56,325 INFO  [Log] bResult: true for iStartTestStep: 6 
+2017-08-01 18:28:56,409 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:28:56,409 INFO  [Log] TestStep row no.: 7 
+2017-08-01 18:28:56,410 INFO  [Log] Action......Closing the browser 
+2017-08-01 18:28:56,627 INFO  [Log] Executed TestData Item:  
+2017-08-01 18:28:56,627 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-08-01 18:28:56,725 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:28:56,805 INFO  [Log] Test result: PASS written successfully on: TestCases of DataEngine.xlsx 
+2017-08-01 18:28:56,805 INFO  [Log] ......All TestStep Completed for login...... 
+2017-08-01 18:28:56,805 INFO  [Log] Test start for new TestData 
+2017-08-01 18:28:56,805 INFO  [Log] - 
+2017-08-01 18:28:56,805 INFO  [Log] - 
+2017-08-01 18:28:56,805 INFO  [Log] - 
+2017-08-01 18:28:56,805 INFO  [Log] TestStep row no.: 1 
+2017-08-01 18:28:56,805 INFO  [Log] Fetching TestData Item: chrome 
+2017-08-01 18:29:02,858 INFO  [Log] Action......Opening the browser 
+2017-08-01 18:29:02,858 INFO  [Log] Executed TestData Item: chrome 
+2017-08-01 18:29:02,858 INFO  [Log] bResult: true for iStartTestStep: 1 
+2017-08-01 18:29:03,024 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:29:03,025 INFO  [Log] TestStep row no.: 2 
+2017-08-01 18:29:03,025 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 18:29:03,025 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="page-container"]/div[5]/input 
+2017-08-01 18:29:03,646 INFO  [Log] Executed TestData Item:  
+2017-08-01 18:29:03,646 INFO  [Log] bResult: true for iStartTestStep: 2 
+2017-08-01 18:29:03,712 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:29:03,712 INFO  [Log] TestStep row no.: 3 
+2017-08-01 18:29:03,713 INFO  [Log] Fetching TestData Item: 0163155233 
+2017-08-01 18:29:03,713 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="username"] 
+2017-08-01 18:29:03,870 INFO  [Log] Executed TestData Item: 0163155233 
+2017-08-01 18:29:03,870 INFO  [Log] bResult: true for iStartTestStep: 3 
+2017-08-01 18:29:03,956 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:29:03,956 INFO  [Log] TestStep row no.: 4 
+2017-08-01 18:29:03,956 INFO  [Log] Fetching TestData Item: 999999 
+2017-08-01 18:29:03,956 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="Password"] 
+2017-08-01 18:29:04,081 INFO  [Log] Executed TestData Item: 999999 
+2017-08-01 18:29:04,081 INFO  [Log] bResult: true for iStartTestStep: 4 
+2017-08-01 18:29:04,159 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:29:04,159 INFO  [Log] TestStep row no.: 5 
+2017-08-01 18:29:04,160 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="btnSubmitLogin"] 
+2017-08-01 18:29:05,033 INFO  [Log] Executed TestData Item:  
+2017-08-01 18:29:05,033 INFO  [Log] bResult: true for iStartTestStep: 5 
+2017-08-01 18:29:05,137 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:29:05,137 INFO  [Log] TestStep row no.: 6 
+2017-08-01 18:29:05,138 INFO  [Log] Fetching TestData Item: 0163155233 
+2017-08-01 18:29:05,138 INFO  [Log] Action......Try Verify text 
+2017-08-01 18:29:05,215 INFO  [Log] Text verified 
+2017-08-01 18:29:05,215 INFO  [Log] Executed TestData Item: 0163155233 
+2017-08-01 18:29:05,215 INFO  [Log] bResult: true for iStartTestStep: 6 
+2017-08-01 18:29:05,274 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:29:05,275 INFO  [Log] TestStep row no.: 7 
+2017-08-01 18:29:05,275 INFO  [Log] Action......Closing the browser 
+2017-08-01 18:29:05,480 INFO  [Log] Executed TestData Item:  
+2017-08-01 18:29:05,480 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-08-01 18:29:05,577 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 18:29:05,661 INFO  [Log] Test result: PASS written successfully on: TestCases of DataEngine.xlsx 
+2017-08-01 18:29:05,661 INFO  [Log] ......All TestStep Completed for login...... 
+2017-08-01 18:29:05,661 INFO  [Log] --------------------------------TestCase login Ended------------------------------------ 
+2017-08-01 18:29:05,661 INFO  [Log] - 
+2017-08-01 18:29:05,661 INFO  [Log] - 
+2017-08-01 18:29:05,661 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] TestCase no.: 2 
+2017-08-01 18:29:05,662 INFO  [Log] TestCaseID: verify 
+2017-08-01 18:29:05,662 INFO  [Log] sRunMode: no 
+2017-08-01 18:29:05,662 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] TestCase no.: 3 
+2017-08-01 18:29:05,662 INFO  [Log] TestCaseID: logout 
+2017-08-01 18:29:05,662 INFO  [Log] sRunMode: no 
+2017-08-01 18:29:05,662 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] - 
+2017-08-01 18:29:05,662 INFO  [Log] ......No more TestCase with 'Yes' RunMode...... 
+2017-08-01 18:29:05,662 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
