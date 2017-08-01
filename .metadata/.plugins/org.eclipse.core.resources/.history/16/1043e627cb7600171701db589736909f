@@ -77,7 +77,7 @@ public class ExcelUtils {
 		try {
 			for (; i <= rowCount; i++) {
 				// ??equalsIgnoreCase
-				if (!sTestCaseID.equalsIgnoreCase(ExcelUtils.getCellData(i, Constants.Col_TestCaseID, SheetName))) {
+				if (!sTestCaseID.equals(ExcelUtils.getCellData(i, Constants.Col_TestCaseID, SheetName))) {
 					break;
 
 				}
