@@ -1,0 +1,137 @@
+2017-07-28 11:06:19,668 ERROR [Log] ExcelUtils|getRowCount. Exception Message - null 
+2017-07-28 11:06:19,669 INFO  [Log] Total TestCases: 0 
+2017-07-28 11:06:19,669 ERROR [Log] ExcelUtils|getColCount. Exception Message - null 
+2017-07-28 11:06:19,669 INFO  [Log] TestData sheet ColCount: 0 
+2017-07-28 11:06:19,669 INFO  [Log] Header Name for TestData Sheet: [] 
+2017-07-28 11:06:19,669 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 11:06:19,669 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 11:06:19,669 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
+2017-07-28 11:07:08,578 ERROR [Log] ExcelUtils|getRowCount. Exception Message - null 
+2017-07-28 11:07:08,578 INFO  [Log] Total TestCases: 0 
+2017-07-28 11:07:08,578 ERROR [Log] ExcelUtils|getColCount. Exception Message - null 
+2017-07-28 11:07:08,578 INFO  [Log] TestData sheet ColCount: 0 
+2017-07-28 11:07:08,578 INFO  [Log] Header Name for TestData Sheet: [] 
+2017-07-28 11:07:08,578 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 11:07:08,578 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 11:07:08,578 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
+2017-07-28 11:07:27,339 ERROR [Log] ExcelUtils|getRowCount. Exception Message - null 
+2017-07-28 11:07:27,340 INFO  [Log] Total TestCases: 0 
+2017-07-28 11:07:27,340 ERROR [Log] ExcelUtils|getColCount. Exception Message - null 
+2017-07-28 11:07:27,340 INFO  [Log] TestData sheet ColCount: 0 
+2017-07-28 11:07:27,340 INFO  [Log] Header Name for TestData Sheet: [] 
+2017-07-28 11:07:27,340 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 11:07:27,340 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 11:07:27,340 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
+2017-07-28 11:07:38,095 ERROR [Log] ExcelUtils|getRowCount. Exception Message - null 
+2017-07-28 11:07:38,095 INFO  [Log] Total TestCases: 0 
+2017-07-28 11:07:38,095 ERROR [Log] ExcelUtils|getColCount. Exception Message - null 
+2017-07-28 11:07:38,095 INFO  [Log] TestData sheet ColCount: 0 
+2017-07-28 11:07:38,095 INFO  [Log] Header Name for TestData Sheet: [] 
+2017-07-28 11:07:38,095 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 11:07:38,096 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 11:07:38,096 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
+2017-07-28 11:07:49,315 ERROR [Log] ExcelUtils|getRowCount. Exception Message - null 
+2017-07-28 11:07:49,316 INFO  [Log] Total TestCases: 0 
+2017-07-28 11:07:49,316 ERROR [Log] ExcelUtils|getColCount. Exception Message - null 
+2017-07-28 11:07:49,316 INFO  [Log] TestData sheet ColCount: 0 
+2017-07-28 11:07:49,316 INFO  [Log] Header Name for TestData Sheet: [] 
+2017-07-28 11:07:49,316 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 11:07:49,316 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 11:07:49,316 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
+2017-07-28 11:08:03,873 INFO  [Log] Total TestCases: 3 
+2017-07-28 11:08:03,874 INFO  [Log] TestData sheet ColCount: 4 
+2017-07-28 11:08:03,880 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-07-28 11:08:03,880 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 11:08:03,880 INFO  [Log] TestCase no.: 1 
+2017-07-28 11:08:03,880 INFO  [Log] TestCaseID: Login1 
+2017-07-28 11:08:03,880 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 11:08:03,880 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 11:08:03,880 INFO  [Log] - 
+2017-07-28 11:08:03,880 INFO  [Log] - 
+2017-07-28 11:08:03,880 INFO  [Log] - 
+2017-07-28 11:08:03,880 INFO  [Log] - 
+2017-07-28 11:08:03,881 INFO  [Log] TestCase no.: 2 
+2017-07-28 11:08:03,881 INFO  [Log] TestCaseID: Login1 
+2017-07-28 11:08:03,881 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 11:08:03,881 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 11:08:03,881 INFO  [Log] - 
+2017-07-28 11:08:03,881 INFO  [Log] - 
+2017-07-28 11:08:03,881 INFO  [Log] - 
+2017-07-28 11:08:03,881 INFO  [Log] - 
+2017-07-28 11:08:03,881 INFO  [Log] TestCase no.: 3 
+2017-07-28 11:08:03,881 INFO  [Log] TestCaseID: Login2 
+2017-07-28 11:08:03,883 INFO  [Log] TestStep Start from row: 7 
+2017-07-28 11:08:03,883 INFO  [Log] TestStep stop at row: 12 
+2017-07-28 11:08:03,883 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:08:03,883 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:08:03,883 INFO  [Log] -------------------             Login2 TestStep begins                ------------------- 
+2017-07-28 11:08:03,883 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:08:03,883 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:08:03,884 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 11:08:03,884 INFO  [Log] TestData Start from row: 4 
+2017-07-28 11:08:03,884 INFO  [Log] TestData stop at row: 5 
+2017-07-28 11:08:03,884 INFO  [Log] testStep row no.: 7 
+2017-07-28 11:08:03,884 INFO  [Log] The Test Data Item: chrome 
+2017-07-28 11:08:07,893 INFO  [Log] Opening the browser 
+2017-07-28 11:08:19,625 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 11:08:19,849 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:19,849 INFO  [Log] testStep row no.: 8 
+2017-07-28 11:08:19,849 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 11:08:20,560 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 11:08:20,672 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:20,672 INFO  [Log] testStep row no.: 9 
+2017-07-28 11:08:20,673 INFO  [Log] The Test Data Item: 0177701779 
+2017-07-28 11:08:20,673 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 11:08:20,796 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 11:08:20,999 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:20,999 INFO  [Log] testStep row no.: 10 
+2017-07-28 11:08:21,000 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 11:08:21,000 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 11:08:21,092 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 11:08:21,219 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:21,219 INFO  [Log] testStep row no.: 11 
+2017-07-28 11:08:21,219 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 11:08:21,828 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 11:08:21,918 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:21,918 INFO  [Log] testStep row no.: 12 
+2017-07-28 11:08:21,918 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 11:08:21,918 INFO  [Log] Closing the browser 
+2017-07-28 11:08:22,173 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 11:08:22,262 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:22,262 INFO  [Log] testStep row no.: 7 
+2017-07-28 11:08:22,262 INFO  [Log] The Test Data Item: chrome 
+2017-07-28 11:08:24,964 INFO  [Log] Opening the browser 
+2017-07-28 11:08:33,733 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 11:08:33,822 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:33,822 INFO  [Log] testStep row no.: 8 
+2017-07-28 11:08:33,822 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 11:08:34,485 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 11:08:34,569 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:34,569 INFO  [Log] testStep row no.: 9 
+2017-07-28 11:08:34,569 INFO  [Log] The Test Data Item: 0197768799 
+2017-07-28 11:08:34,569 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 11:08:34,687 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 11:08:34,756 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:34,757 INFO  [Log] testStep row no.: 10 
+2017-07-28 11:08:34,757 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 11:08:34,757 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 11:08:34,877 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 11:08:34,955 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:34,955 INFO  [Log] testStep row no.: 11 
+2017-07-28 11:08:34,956 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 11:08:35,963 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 11:08:36,025 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:36,025 INFO  [Log] testStep row no.: 12 
+2017-07-28 11:08:36,026 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 11:08:36,026 INFO  [Log] Closing the browser 
+2017-07-28 11:08:36,211 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 11:08:36,272 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:08:36,332 INFO  [Log] Test result written successfully on: TestCases of DataEngine.xlsx 
+2017-07-28 11:08:36,333 INFO  [Log] All TestStep Completed for Login2 
+2017-07-28 11:08:36,333 INFO  [Log] --------------------------------TestCase Login2 Ended------------------------------------ 
+2017-07-28 11:08:36,333 INFO  [Log] - 
+2017-07-28 11:08:36,333 INFO  [Log] - 
+2017-07-28 11:08:36,333 INFO  [Log] - 
+2017-07-28 11:08:36,333 INFO  [Log] - 
+2017-07-28 11:08:36,333 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 11:08:36,333 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 

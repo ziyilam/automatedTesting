@@ -1,0 +1,293 @@
+2017-07-28 12:20:50,510 INFO  [Log] Total TestCases: 3 
+2017-07-28 12:20:50,511 INFO  [Log] TestData sheet ColCount: 4 
+2017-07-28 12:20:50,517 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-07-28 12:20:50,517 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 12:20:50,517 INFO  [Log] TestCase no.: 1 
+2017-07-28 12:20:50,517 INFO  [Log] TestCaseID: Login1 
+2017-07-28 12:20:50,517 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 12:20:50,517 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 12:20:50,517 INFO  [Log] - 
+2017-07-28 12:20:50,517 INFO  [Log] - 
+2017-07-28 12:20:50,517 INFO  [Log] - 
+2017-07-28 12:20:50,517 INFO  [Log] - 
+2017-07-28 12:20:50,517 INFO  [Log] TestCase no.: 2 
+2017-07-28 12:20:50,518 INFO  [Log] TestCaseID: Login1 
+2017-07-28 12:20:50,518 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 12:20:50,518 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 12:20:50,518 INFO  [Log] - 
+2017-07-28 12:20:50,518 INFO  [Log] - 
+2017-07-28 12:20:50,519 INFO  [Log] - 
+2017-07-28 12:20:50,519 INFO  [Log] - 
+2017-07-28 12:20:50,519 INFO  [Log] TestCase no.: 3 
+2017-07-28 12:20:50,519 INFO  [Log] TestCaseID: Login2 
+2017-07-28 12:20:50,520 INFO  [Log] TestStep Start from row: 7 
+2017-07-28 12:20:50,520 INFO  [Log] TestStep stop at row: 12 
+2017-07-28 12:20:50,520 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:20:50,520 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:20:50,520 INFO  [Log] -------------------             Login2 TestStep begins                ------------------- 
+2017-07-28 12:20:50,520 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:20:50,520 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:20:50,521 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:20:50,521 INFO  [Log] TestData Start from row: 4 
+2017-07-28 12:20:50,521 INFO  [Log] TestData stop at row: 5 
+2017-07-28 12:20:50,521 INFO  [Log] testStep row no.: 7 
+2017-07-28 12:20:50,521 INFO  [Log] The Test Data Item: chrome 
+2017-07-28 12:21:11,855 INFO  [Log] Opening the browser 
+2017-07-28 12:21:11,855 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 12:21:12,069 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:12,069 INFO  [Log] testStep row no.: 8 
+2017-07-28 12:21:12,070 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 12:21:12,735 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 12:21:12,843 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:12,843 INFO  [Log] testStep row no.: 9 
+2017-07-28 12:21:12,843 INFO  [Log] The Test Data Item: 0177701779 
+2017-07-28 12:21:12,843 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 12:21:12,963 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 12:21:13,152 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:13,152 INFO  [Log] testStep row no.: 10 
+2017-07-28 12:21:13,153 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 12:21:13,153 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 12:21:13,248 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 12:21:13,377 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:13,377 INFO  [Log] testStep row no.: 11 
+2017-07-28 12:21:13,377 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 12:21:13,959 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 12:21:14,052 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:14,052 INFO  [Log] testStep row no.: 12 
+2017-07-28 12:21:14,052 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:21:14,053 INFO  [Log] Closing the browser 
+2017-07-28 12:21:14,235 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 12:21:14,313 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:14,315 INFO  [Log] testStep row no.: 7 
+2017-07-28 12:21:14,315 INFO  [Log] The Test Data Item: chrome 
+2017-07-28 12:21:25,241 INFO  [Log] Opening the browser 
+2017-07-28 12:21:25,241 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 12:21:25,334 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:25,334 INFO  [Log] testStep row no.: 8 
+2017-07-28 12:21:25,335 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 12:21:26,725 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 12:21:26,808 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:26,808 INFO  [Log] testStep row no.: 9 
+2017-07-28 12:21:26,809 INFO  [Log] The Test Data Item: 0197768799 
+2017-07-28 12:21:26,809 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 12:21:26,962 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 12:21:27,036 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:27,036 INFO  [Log] testStep row no.: 10 
+2017-07-28 12:21:27,037 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 12:21:27,037 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 12:21:27,171 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 12:21:27,245 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:27,245 INFO  [Log] testStep row no.: 11 
+2017-07-28 12:21:27,246 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 12:21:28,193 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 12:21:28,284 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:28,284 INFO  [Log] testStep row no.: 12 
+2017-07-28 12:21:28,284 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:21:28,286 INFO  [Log] Closing the browser 
+2017-07-28 12:21:28,537 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 12:21:28,584 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:21:28,659 INFO  [Log] Test result written successfully on: TestCases of DataEngine.xlsx 
+2017-07-28 12:21:28,659 INFO  [Log] All TestStep Completed for Login2 
+2017-07-28 12:21:28,659 INFO  [Log] --------------------------------TestCase Login2 Ended------------------------------------ 
+2017-07-28 12:21:28,659 INFO  [Log] - 
+2017-07-28 12:21:28,659 INFO  [Log] - 
+2017-07-28 12:21:28,659 INFO  [Log] - 
+2017-07-28 12:21:28,659 INFO  [Log] - 
+2017-07-28 12:21:28,659 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 12:21:28,659 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
+2017-07-28 12:21:48,422 INFO  [Log] Total TestCases: 3 
+2017-07-28 12:21:48,423 INFO  [Log] TestData sheet ColCount: 4 
+2017-07-28 12:21:48,430 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-07-28 12:21:48,430 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 12:21:48,430 INFO  [Log] TestCase no.: 1 
+2017-07-28 12:21:48,430 INFO  [Log] TestCaseID: Login1 
+2017-07-28 12:21:48,430 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 12:21:48,430 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 12:21:48,430 INFO  [Log] - 
+2017-07-28 12:21:48,430 INFO  [Log] - 
+2017-07-28 12:21:48,430 INFO  [Log] - 
+2017-07-28 12:21:48,430 INFO  [Log] - 
+2017-07-28 12:21:48,430 INFO  [Log] TestCase no.: 2 
+2017-07-28 12:21:48,431 INFO  [Log] TestCaseID: Login1 
+2017-07-28 12:21:48,431 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 12:21:48,431 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 12:21:48,431 INFO  [Log] - 
+2017-07-28 12:21:48,431 INFO  [Log] - 
+2017-07-28 12:21:48,431 INFO  [Log] - 
+2017-07-28 12:21:48,431 INFO  [Log] - 
+2017-07-28 12:21:48,431 INFO  [Log] TestCase no.: 3 
+2017-07-28 12:21:48,431 INFO  [Log] TestCaseID: Login2 
+2017-07-28 12:21:48,432 INFO  [Log] TestStep Start from row: 7 
+2017-07-28 12:21:48,433 INFO  [Log] TestStep stop at row: 12 
+2017-07-28 12:21:48,433 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:21:48,433 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:21:48,433 INFO  [Log] -------------------             Login2 TestStep begins                ------------------- 
+2017-07-28 12:21:48,433 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:21:48,433 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:21:48,433 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:21:48,433 INFO  [Log] TestData Start from row: 4 
+2017-07-28 12:21:48,433 INFO  [Log] TestData stop at row: 5 
+2017-07-28 12:21:48,433 INFO  [Log] testStep row no.: 7 
+2017-07-28 12:21:48,434 INFO  [Log] The Test Data Item: firefox 
+2017-07-28 12:22:13,109 INFO  [Log] Opening the browser 
+2017-07-28 12:22:13,109 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 12:22:13,303 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:13,304 INFO  [Log] testStep row no.: 8 
+2017-07-28 12:22:13,304 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 12:22:14,516 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 12:22:14,609 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:14,609 INFO  [Log] testStep row no.: 9 
+2017-07-28 12:22:14,609 INFO  [Log] The Test Data Item: 0177701779 
+2017-07-28 12:22:14,609 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 12:22:14,760 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 12:22:14,877 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:14,877 INFO  [Log] testStep row no.: 10 
+2017-07-28 12:22:14,878 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 12:22:14,878 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 12:22:15,480 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 12:22:15,576 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:15,577 INFO  [Log] testStep row no.: 11 
+2017-07-28 12:22:15,580 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 12:22:16,147 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 12:22:16,236 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:16,236 INFO  [Log] testStep row no.: 12 
+2017-07-28 12:22:16,236 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:22:16,236 INFO  [Log] Closing the browser 
+2017-07-28 12:22:16,275 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 12:22:16,343 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:16,343 INFO  [Log] testStep row no.: 7 
+2017-07-28 12:22:16,343 INFO  [Log] The Test Data Item: firefox 
+2017-07-28 12:22:30,599 INFO  [Log] Opening the browser 
+2017-07-28 12:22:30,599 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 12:22:30,685 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:30,685 INFO  [Log] testStep row no.: 8 
+2017-07-28 12:22:30,685 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 12:22:31,505 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 12:22:31,568 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:31,568 INFO  [Log] testStep row no.: 9 
+2017-07-28 12:22:31,568 INFO  [Log] The Test Data Item: 0197768799 
+2017-07-28 12:22:31,568 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 12:22:31,711 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 12:22:31,770 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:31,770 INFO  [Log] testStep row no.: 10 
+2017-07-28 12:22:31,770 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 12:22:31,770 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 12:22:31,820 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 12:22:31,881 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:31,881 INFO  [Log] testStep row no.: 11 
+2017-07-28 12:22:31,881 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 12:22:33,630 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 12:22:33,689 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:33,689 INFO  [Log] testStep row no.: 12 
+2017-07-28 12:22:33,689 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:22:33,690 INFO  [Log] Closing the browser 
+2017-07-28 12:22:33,954 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 12:22:33,997 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:22:34,047 INFO  [Log] Test result written successfully on: TestCases of DataEngine.xlsx 
+2017-07-28 12:22:34,047 INFO  [Log] All TestStep Completed for Login2 
+2017-07-28 12:22:34,047 INFO  [Log] --------------------------------TestCase Login2 Ended------------------------------------ 
+2017-07-28 12:22:34,047 INFO  [Log] - 
+2017-07-28 12:22:34,047 INFO  [Log] - 
+2017-07-28 12:22:34,047 INFO  [Log] - 
+2017-07-28 12:22:34,047 INFO  [Log] - 
+2017-07-28 12:22:34,047 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 12:22:34,047 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 
+2017-07-28 12:23:29,436 INFO  [Log] Total TestCases: 3 
+2017-07-28 12:23:29,437 INFO  [Log] TestData sheet ColCount: 4 
+2017-07-28 12:23:29,443 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-07-28 12:23:29,443 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 12:23:29,443 INFO  [Log] TestCase no.: 1 
+2017-07-28 12:23:29,443 INFO  [Log] TestCaseID: Login1 
+2017-07-28 12:23:29,443 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 12:23:29,443 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 12:23:29,443 INFO  [Log] - 
+2017-07-28 12:23:29,443 INFO  [Log] - 
+2017-07-28 12:23:29,443 INFO  [Log] - 
+2017-07-28 12:23:29,443 INFO  [Log] - 
+2017-07-28 12:23:29,443 INFO  [Log] TestCase no.: 2 
+2017-07-28 12:23:29,444 INFO  [Log] TestCaseID: Login1 
+2017-07-28 12:23:29,444 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 12:23:29,444 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 12:23:29,444 INFO  [Log] - 
+2017-07-28 12:23:29,444 INFO  [Log] - 
+2017-07-28 12:23:29,444 INFO  [Log] - 
+2017-07-28 12:23:29,444 INFO  [Log] - 
+2017-07-28 12:23:29,444 INFO  [Log] TestCase no.: 3 
+2017-07-28 12:23:29,444 INFO  [Log] TestCaseID: Login2 
+2017-07-28 12:23:29,445 INFO  [Log] TestStep Start from row: 7 
+2017-07-28 12:23:29,445 INFO  [Log] TestStep stop at row: 12 
+2017-07-28 12:23:29,445 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:23:29,446 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:23:29,446 INFO  [Log] -------------------             Login2 TestStep begins                ------------------- 
+2017-07-28 12:23:29,446 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:23:29,446 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 12:23:29,446 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:23:29,446 INFO  [Log] TestData Start from row: 4 
+2017-07-28 12:23:29,446 INFO  [Log] TestData stop at row: 5 
+2017-07-28 12:23:29,446 INFO  [Log] testStep row no.: 7 
+2017-07-28 12:23:29,446 INFO  [Log] The Test Data Item: ie 
+2017-07-28 12:23:33,761 INFO  [Log] Opening the browser 
+2017-07-28 12:23:33,762 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 12:23:33,979 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:23:33,979 INFO  [Log] testStep row no.: 8 
+2017-07-28 12:23:33,980 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 12:23:34,011 ERROR [Log] TestStepID: TS_2 ActionKeywords|tryClick. Exception Message - Unable to find element on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ICX-NB-026', ip: '192.168.22.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:6404/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: fb5dcf27-71b0-4357-b3ae-68c37d36b9fe
+*** Element info: {Using=css selector, value=input[class='btn-h-login']} 
+2017-07-28 12:23:34,193 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:23:34,193 INFO  [Log] Closing the browser 
+2017-07-28 12:23:34,212 ERROR [Log] TestStepID: TS_2 ActionKeywords|tryClose. Exception Message - Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ICX-NB-026', ip: '192.168.22.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:6404/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: fb5dcf27-71b0-4357-b3ae-68c37d36b9fe 
+2017-07-28 12:23:34,213 INFO  [Log] close browser from TestStep loop 
+2017-07-28 12:23:34,292 INFO  [Log] Test result written successfully on: TestCases of DataEngine.xlsx 
+2017-07-28 12:23:34,292 WARN  [Log] Test Case Failed 
+2017-07-28 12:23:34,292 INFO  [Log] Closing the browser 
+2017-07-28 12:23:34,308 ERROR [Log] TestStepID: TS_2 ActionKeywords|tryClose. Exception Message - Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ICX-NB-026', ip: '192.168.22.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:6404/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: fb5dcf27-71b0-4357-b3ae-68c37d36b9fe 
+2017-07-28 12:23:34,308 INFO  [Log] close browser from TestCase loop 
+2017-07-28 12:23:34,308 INFO  [Log] testStep row no.: 7 
+2017-07-28 12:23:34,309 INFO  [Log] The Test Data Item: ie 
+2017-07-28 12:23:36,501 INFO  [Log] Opening the browser 
+2017-07-28 12:23:36,619 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:23:36,619 INFO  [Log] Closing the browser 
+2017-07-28 12:23:36,637 ERROR [Log] TestStepID: TS_1 ActionKeywords|tryClose. Exception Message - Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ICX-NB-026', ip: '192.168.22.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:6028/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9cda1ac6-e6d4-4687-8fcb-fcb6aef565b9 
+2017-07-28 12:23:36,637 INFO  [Log] close browser from TestStep loop 
+2017-07-28 12:23:36,754 INFO  [Log] Test result written successfully on: TestCases of DataEngine.xlsx 
+2017-07-28 12:23:36,754 WARN  [Log] Test Case Failed 
+2017-07-28 12:23:36,754 INFO  [Log] Closing the browser 
+2017-07-28 12:23:36,770 ERROR [Log] TestStepID: TS_1 ActionKeywords|tryClose. Exception Message - Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ICX-NB-026', ip: '192.168.22.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:6028/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9cda1ac6-e6d4-4687-8fcb-fcb6aef565b9 
+2017-07-28 12:23:36,770 INFO  [Log] close browser from TestCase loop 
+2017-07-28 12:23:36,770 INFO  [Log] --------------------------------TestCase Login2 Ended------------------------------------ 
+2017-07-28 12:23:36,770 INFO  [Log] - 
+2017-07-28 12:23:36,770 INFO  [Log] - 
+2017-07-28 12:23:36,770 INFO  [Log] - 
+2017-07-28 12:23:36,770 INFO  [Log] - 
+2017-07-28 12:23:36,770 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 12:23:36,770 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 

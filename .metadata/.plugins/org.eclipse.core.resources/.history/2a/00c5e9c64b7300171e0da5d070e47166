@@ -1,0 +1,97 @@
+2017-07-28 11:59:29,098 INFO  [Log] Total TestCases: 3 
+2017-07-28 11:59:29,098 INFO  [Log] TestData sheet ColCount: 4 
+2017-07-28 11:59:29,113 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-07-28 11:59:29,113 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-07-28 11:59:29,113 INFO  [Log] TestCase no.: 1 
+2017-07-28 11:59:29,113 INFO  [Log] TestCaseID: Login1 
+2017-07-28 11:59:29,113 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 11:59:29,113 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] TestCase no.: 2 
+2017-07-28 11:59:29,113 INFO  [Log] TestCaseID: Login1 
+2017-07-28 11:59:29,113 INFO  [Log] RunMode is 'No' for: Login1 
+2017-07-28 11:59:29,113 INFO  [Log] --------------------------------TestCase Login1 Ended------------------------------------ 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] - 
+2017-07-28 11:59:29,113 INFO  [Log] TestCase no.: 3 
+2017-07-28 11:59:29,113 INFO  [Log] TestCaseID: Login2 
+2017-07-28 11:59:29,113 INFO  [Log] TestStep Start from row: 7 
+2017-07-28 11:59:29,113 INFO  [Log] TestStep stop at row: 12 
+2017-07-28 11:59:29,113 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:59:29,113 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:59:29,113 INFO  [Log] -------------------             Login2 TestStep begins                ------------------- 
+2017-07-28 11:59:29,113 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:59:29,113 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-07-28 11:59:29,113 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 11:59:29,113 INFO  [Log] TestData Start from row: 4 
+2017-07-28 11:59:29,113 INFO  [Log] TestData stop at row: 5 
+2017-07-28 11:59:29,113 INFO  [Log] testStep row no.: 7 
+2017-07-28 11:59:29,113 INFO  [Log] The Test Data Item: chrome 
+2017-07-28 11:59:33,329 INFO  [Log] Opening the browser 
+2017-07-28 11:59:48,518 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 11:59:48,754 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:59:48,756 INFO  [Log] testStep row no.: 8 
+2017-07-28 11:59:48,756 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 11:59:49,380 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 11:59:49,496 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:59:49,496 INFO  [Log] testStep row no.: 9 
+2017-07-28 11:59:49,496 INFO  [Log] The Test Data Item: 0177701779 
+2017-07-28 11:59:49,496 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 11:59:49,610 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 11:59:49,763 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:59:49,763 INFO  [Log] testStep row no.: 10 
+2017-07-28 11:59:49,763 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 11:59:49,763 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 11:59:49,855 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 11:59:50,026 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:59:50,026 INFO  [Log] testStep row no.: 11 
+2017-07-28 11:59:50,027 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 11:59:50,607 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 11:59:50,700 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:59:50,700 INFO  [Log] testStep row no.: 12 
+2017-07-28 11:59:50,701 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 11:59:50,701 INFO  [Log] Closing the browser 
+2017-07-28 11:59:50,982 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 11:59:51,074 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 11:59:51,074 INFO  [Log] testStep row no.: 7 
+2017-07-28 11:59:51,075 INFO  [Log] The Test Data Item: chrome 
+2017-07-28 11:59:54,206 INFO  [Log] Opening the browser 
+2017-07-28 12:00:07,036 INFO  [Log] bResult: true for iStartTestStep: 7 
+2017-07-28 12:00:07,117 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:00:07,117 INFO  [Log] testStep row no.: 8 
+2017-07-28 12:00:07,117 INFO  [Log] Clicking on ObjectLocator input[class='btn-h-login'] 
+2017-07-28 12:00:07,855 INFO  [Log] bResult: true for iStartTestStep: 8 
+2017-07-28 12:00:07,928 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:00:07,928 INFO  [Log] testStep row no.: 9 
+2017-07-28 12:00:07,928 INFO  [Log] The Test Data Item: 0197768799 
+2017-07-28 12:00:07,928 INFO  [Log] Input the text into ObjectLocator input[id='username'] 
+2017-07-28 12:00:08,072 INFO  [Log] bResult: true for iStartTestStep: 9 
+2017-07-28 12:00:08,142 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:00:08,142 INFO  [Log] testStep row no.: 10 
+2017-07-28 12:00:08,149 INFO  [Log] The Test Data Item: 999999 
+2017-07-28 12:00:08,149 INFO  [Log] Input the text into ObjectLocator input[id='Password'] 
+2017-07-28 12:00:08,260 INFO  [Log] bResult: true for iStartTestStep: 10 
+2017-07-28 12:00:08,328 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:00:08,328 INFO  [Log] testStep row no.: 11 
+2017-07-28 12:00:08,330 INFO  [Log] Clicking on ObjectLocator input[id='btnSubmitLogin'] 
+2017-07-28 12:00:10,835 INFO  [Log] bResult: true for iStartTestStep: 11 
+2017-07-28 12:00:10,910 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:00:10,910 INFO  [Log] testStep row no.: 12 
+2017-07-28 12:00:10,910 WARN  [Log] No Cell Data is found and return empty cell 
+2017-07-28 12:00:10,910 INFO  [Log] Closing the browser 
+2017-07-28 12:00:11,124 INFO  [Log] bResult: true for iStartTestStep: 12 
+2017-07-28 12:00:11,171 INFO  [Log] Test result written successfully on: TestSteps of DataEngine.xlsx 
+2017-07-28 12:00:11,243 INFO  [Log] Test result written successfully on: TestCases of DataEngine.xlsx 
+2017-07-28 12:00:11,243 INFO  [Log] All TestStep Completed for Login2 
+2017-07-28 12:00:11,243 INFO  [Log] --------------------------------TestCase Login2 Ended------------------------------------ 
+2017-07-28 12:00:11,243 INFO  [Log] - 
+2017-07-28 12:00:11,243 INFO  [Log] - 
+2017-07-28 12:00:11,244 INFO  [Log] - 
+2017-07-28 12:00:11,244 INFO  [Log] - 
+2017-07-28 12:00:11,244 INFO  [Log] No more TestCase with 'Yes' RunMode 
+2017-07-28 12:00:11,244 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 

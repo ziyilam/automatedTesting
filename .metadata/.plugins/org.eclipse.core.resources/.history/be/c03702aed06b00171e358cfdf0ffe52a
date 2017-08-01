@@ -1,0 +1,24 @@
+package newpackage;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import newpackage.basic;;
+public class PG5 {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		String baseUrl = "http://ms.scrpower99.com//Member//MemberLogin";
+		driver.get(baseUrl);
+		
+		String myString = "";
+		myString = driver.findElement(By.id("username")).getTagName();
+		System.out.println("the Text is: " + myString);
+	}
+
+}

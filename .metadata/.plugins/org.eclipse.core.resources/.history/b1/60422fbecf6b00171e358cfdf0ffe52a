@@ -1,0 +1,19 @@
+package newpackage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import newpackage.basic;;
+public class PG5 {
+
+	public static void main(String[] args) {
+		
+		basic myObj = new basic();
+		myObj.invokeBrowser("http://ms.scrpower99.com//Member//MemberLogin");
+		WebDriver driver = new ChromeDriver();
+		String myString = "";
+		myString = driver.findElement(By.className("form-control")).getText();
+		System.out.println("the Text is: " + myString);
+	}
+
+}

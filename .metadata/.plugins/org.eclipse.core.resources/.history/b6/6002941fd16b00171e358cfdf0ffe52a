@@ -1,0 +1,15 @@
+package newpackage;
+import newpackage.basic;
+public class testCase1 {
+
+	public static void main(String[] args) {
+	
+			basic myObj = new basic();
+			myObj.invokeBrowser("http://ms.scrpower99.com");
+			myObj.tryLogin("0197768799", "999999");
+			myObj.tryClose();
+
+		
+	}
+
+}

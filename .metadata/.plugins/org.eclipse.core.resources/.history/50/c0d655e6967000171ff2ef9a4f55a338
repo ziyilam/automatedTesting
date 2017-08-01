@@ -1,0 +1,97 @@
+package executionEngine;
+
+import java.lang.reflect.Method;
+
+import org.apache.log4j.xml.DOMConfigurator;
+
+import config.ActionKeywords;
+import config.Constants;
+import utility.ExcelUtils;
+import utility.Log;
+
+public class DriverScript {
+	public static ActionKeywords actionKeywords;
+	public static String sActionKeyword;
+	public static String sObjectLocator;
+	public static String sTestData;
+	public static Method method[];
+	
+	public static int iTestStep;
+	public static int iTestLastStep;
+	public static String sTestCaseID;
+	public static String sRunMode;
+
+	public DriverScript() throws NoSuchMethodException, SecurityException {
+		actionKeywords = new ActionKeywords();
+		method = actionKeywords.getClass().getMethods();
+	}
+
+	public static void main(String[] args) throws Exception {
+
+		/*String sPath = Constants.Path_TestData;
+		ExcelUtils.setExcelFile(sPath, Constants.Sheet_TestSteps);
+		for (int iRow = 1; iRow <= 6; iRow++) {
+			sObjectLocator = ExcelUtils.getCellData(iRow, Constants.Col_ObjectLocator);
+			sActionKeyword = ExcelUtils.getCellData(iRow, Constants.Col_ActionKeyword);
+			sTestData = ExcelUtils.getCellData(iRow, Constants.Col_TestData);
+			DriverScript driverScript = new DriverScript();
+			driverScript.execute_Action();
+			// System.out.println(sObjectLocator);
+			// System.out.println(sActionKeyword);
+			// System.out.println(method[1]);
+
+		}*/
+		ExcelUtils.setExcelFile(Constants.Path_TestData);
+		DOMConfigurator.configure("log4j.xml");
+		DriverScript startEngine = new DriverScript();
+		startEngine.execute_TestCase();
+	}
+
+	private void execute_TestCase() throws Exception{
+		int iTotalTestCases = ExcelUtils.getRowCount(Constants.Sheet_TestCases);
+		for(int iTestcase=1; iTestcase<=iTotalTestCases; iTestcase++) {
+			sTestCaseID = ExcelUtils.getCellData(iTestcase, Constants.Col_TestCaseID, Constants.Sheet_TestCases);
+			sRunMode = ExcelUtils.getCellData(iTestcase, Constants.Col_RunMode, Constants.Sheet_TestCases);
+			if(sRunMode.equals("Yes")) {
+				iTestStep=ExcelUtils.getRowContains(sTestCaseID, Constants.Col_TestCaseID, Constants.Sheet_TestSteps);
+				iTestLastStep=ExcelUtils.getTestStepsCount(Constants.Sheet_TestSteps, sTestCaseID, iTestStep);
+				Log.startTestCase(sTestCaseID);
+				
+				for(int i=iTestStep; i<=iTestLastStep; i++) {
+					sObjectLocator = ExcelUtils.getCellData(i, Constants.Col_ObjectLocator, Constants.Sheet_TestSteps);
+					sActionKeyword = ExcelUtils.getCellData(i, Constants.Col_ActionKeyword, Constants.Sheet_TestSteps);
+					sTestData = ExcelUtils.getCellData(i, Constants.Col_TestData, Constants.Sheet_TestSteps);
+					
+					execute_Action();
+					
+				}
+				Log.endTestCase(sTestCaseID);
+			}
+		}
+		
+	}
+	private static void execute_Action() throws Exception {
+		
+		/*int a = ExcelUtils.getRowContains("Login", Constants.Col_TestCaseID, Constants.Sheet_TestSteps);
+		System.out.println(a);
+		int b = ExcelUtils.getTestStepsCount(Constants.Sheet_TestSteps, "Login", a);
+		System.out.println(b);*/
+		//System.out.println(method.length);
+		/*System.out.println(sObjectLocator);
+		System.out.println(sActionKeyword);
+		System.out.println(sTestData);
+		
+		int icount = ExcelUtils.getRowCount(Constants.Sheet_TestCases);
+		System.out.println(icount);
+		icount = ExcelUtils.getRowCount(Constants.Sheet_TestSteps);
+		System.out.println(icount);*/
+		for (int i = 0; i < method.length; i++) {
+			// System.out.println(method[i]);
+			if (method[i].getName().equals(sActionKeyword)) {
+				method[i].invoke(actionKeywords, sObjectLocator, sActionKeyword, sTestData);
+				break;
+			}
+		}
+		
+	}
+}
