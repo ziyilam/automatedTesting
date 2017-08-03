@@ -1,0 +1,145 @@
+2017-08-01 23:26:01,855 INFO  [Log] Total TestCases: 2 
+2017-08-01 23:26:01,855 INFO  [Log] TestData sheet ColCount: 4 
+2017-08-01 23:26:01,862 INFO  [Log] Header Name for TestData Sheet: [TestCaseID, username, password, browser] 
+2017-08-01 23:26:01,862 INFO  [Log] ---------------------------------------   START  --------------------------------------- 
+2017-08-01 23:26:01,862 INFO  [Log] TestCase no.: 1 
+2017-08-01 23:26:01,862 INFO  [Log] TestCaseID: login 
+2017-08-01 23:26:01,862 INFO  [Log] sRunMode: yes 
+2017-08-01 23:26:01,862 INFO  [Log] - 
+2017-08-01 23:26:01,862 INFO  [Log] - 
+2017-08-01 23:26:01,862 INFO  [Log] - 
+2017-08-01 23:26:01,862 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:01,863 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:01,863 INFO  [Log] -------------------             login TestStep begins                ------------------- 
+2017-08-01 23:26:01,863 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:01,863 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:01,864 INFO  [Log] 1st TestStep at row: 1 
+2017-08-01 23:26:01,865 INFO  [Log] Last TestStep at row: 6 
+2017-08-01 23:26:01,866 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:01,866 INFO  [Log] 1st TestData at row: 1 
+2017-08-01 23:26:01,866 INFO  [Log] Last TestData at row: 2 
+2017-08-01 23:26:01,866 INFO  [Log] Test start for new TestData 
+2017-08-01 23:26:01,866 INFO  [Log] - 
+2017-08-01 23:26:01,866 INFO  [Log] - 
+2017-08-01 23:26:01,866 INFO  [Log] - 
+2017-08-01 23:26:01,866 INFO  [Log] TestStep row no.: 1 
+2017-08-01 23:26:01,867 INFO  [Log] Fetching TestData Item: Chrome 
+2017-08-01 23:26:07,856 INFO  [Log] Action......Opening the browser 
+2017-08-01 23:26:07,856 INFO  [Log] Executed TestData Item: Chrome 
+2017-08-01 23:26:07,856 INFO  [Log] bResult: true for iStartTestStep: 1 
+2017-08-01 23:26:08,126 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:08,126 INFO  [Log] TestStep row no.: 2 
+2017-08-01 23:26:08,127 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:08,127 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="page-container"]/div[5]/input 
+2017-08-01 23:26:08,831 INFO  [Log] Executed TestData Item:  
+2017-08-01 23:26:08,832 INFO  [Log] bResult: true for iStartTestStep: 2 
+2017-08-01 23:26:08,969 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:08,969 INFO  [Log] TestStep row no.: 3 
+2017-08-01 23:26:08,970 INFO  [Log] Fetching TestData Item: 0197768799 
+2017-08-01 23:26:08,970 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="username"] 
+2017-08-01 23:26:09,093 INFO  [Log] Executed TestData Item: 0197768799 
+2017-08-01 23:26:09,094 INFO  [Log] bResult: true for iStartTestStep: 3 
+2017-08-01 23:26:09,302 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:09,302 INFO  [Log] TestStep row no.: 4 
+2017-08-01 23:26:09,303 INFO  [Log] Fetching TestData Item: 999999 
+2017-08-01 23:26:09,303 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="Password"] 
+2017-08-01 23:26:09,408 INFO  [Log] Executed TestData Item: 999999 
+2017-08-01 23:26:09,408 INFO  [Log] bResult: true for iStartTestStep: 4 
+2017-08-01 23:26:09,524 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:09,524 INFO  [Log] TestStep row no.: 5 
+2017-08-01 23:26:09,525 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="btnSubmitLogin"] 
+2017-08-01 23:26:10,229 INFO  [Log] Executed TestData Item:  
+2017-08-01 23:26:10,229 INFO  [Log] bResult: true for iStartTestStep: 5 
+2017-08-01 23:26:10,325 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:10,325 INFO  [Log] TestStep row no.: 6 
+2017-08-01 23:26:10,325 INFO  [Log] Action......Try Verify text 
+2017-08-01 23:26:10,407 INFO  [Log] Text verified 
+2017-08-01 23:26:10,407 INFO  [Log] Executed TestData Item: log keluar 
+2017-08-01 23:26:10,407 INFO  [Log] bResult: true for iStartTestStep: 6 
+2017-08-01 23:26:10,496 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:10,574 INFO  [Log] Test result: PASS written successfully on: TestCases of DataEngine.xlsx 
+2017-08-01 23:26:10,574 INFO  [Log] ......All TestStep Completed for login...... 
+2017-08-01 23:26:10,574 INFO  [Log] Test start for new TestData 
+2017-08-01 23:26:10,574 INFO  [Log] - 
+2017-08-01 23:26:10,574 INFO  [Log] - 
+2017-08-01 23:26:10,574 INFO  [Log] - 
+2017-08-01 23:26:10,574 INFO  [Log] TestStep row no.: 1 
+2017-08-01 23:26:10,574 INFO  [Log] Fetching TestData Item: chrome 
+2017-08-01 23:26:15,927 INFO  [Log] Action......Opening the browser 
+2017-08-01 23:26:15,928 INFO  [Log] Executed TestData Item: chrome 
+2017-08-01 23:26:15,928 INFO  [Log] bResult: true for iStartTestStep: 1 
+2017-08-01 23:26:16,046 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:16,046 INFO  [Log] TestStep row no.: 2 
+2017-08-01 23:26:16,047 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:16,048 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="page-container"]/div[5]/input 
+2017-08-01 23:26:16,683 INFO  [Log] Executed TestData Item:  
+2017-08-01 23:26:16,683 INFO  [Log] bResult: true for iStartTestStep: 2 
+2017-08-01 23:26:16,761 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:16,761 INFO  [Log] TestStep row no.: 3 
+2017-08-01 23:26:16,761 INFO  [Log] Fetching TestData Item: 0163155233 
+2017-08-01 23:26:16,762 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="username"] 
+2017-08-01 23:26:16,940 INFO  [Log] Executed TestData Item: 0163155233 
+2017-08-01 23:26:16,940 INFO  [Log] bResult: true for iStartTestStep: 3 
+2017-08-01 23:26:17,019 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:17,020 INFO  [Log] TestStep row no.: 4 
+2017-08-01 23:26:17,020 INFO  [Log] Fetching TestData Item: 999999 
+2017-08-01 23:26:17,020 INFO  [Log] Action......Input the text into ObjectLocator //*[@id="Password"] 
+2017-08-01 23:26:17,175 INFO  [Log] Executed TestData Item: 999999 
+2017-08-01 23:26:17,175 INFO  [Log] bResult: true for iStartTestStep: 4 
+2017-08-01 23:26:17,257 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:17,257 INFO  [Log] TestStep row no.: 5 
+2017-08-01 23:26:17,257 INFO  [Log] Action......Clicking on ObjectLocator //*[@id="btnSubmitLogin"] 
+2017-08-01 23:26:17,945 INFO  [Log] Executed TestData Item:  
+2017-08-01 23:26:17,945 INFO  [Log] bResult: true for iStartTestStep: 5 
+2017-08-01 23:26:18,036 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:18,036 INFO  [Log] TestStep row no.: 6 
+2017-08-01 23:26:18,036 INFO  [Log] Action......Try Verify text 
+2017-08-01 23:26:18,118 INFO  [Log] Text verified 
+2017-08-01 23:26:18,118 INFO  [Log] Executed TestData Item: log keluar 
+2017-08-01 23:26:18,118 INFO  [Log] bResult: true for iStartTestStep: 6 
+2017-08-01 23:26:18,197 INFO  [Log] Test result: PASS written successfully on: TestSteps of DataEngine.xlsx 
+2017-08-01 23:26:18,281 INFO  [Log] Test result: PASS written successfully on: TestCases of DataEngine.xlsx 
+2017-08-01 23:26:18,281 INFO  [Log] ......All TestStep Completed for login...... 
+2017-08-01 23:26:18,281 INFO  [Log] --------------------------------TestCase login Ended------------------------------------ 
+2017-08-01 23:26:18,282 INFO  [Log] - 
+2017-08-01 23:26:18,282 INFO  [Log] - 
+2017-08-01 23:26:18,282 INFO  [Log] - 
+2017-08-01 23:26:18,282 INFO  [Log] - 
+2017-08-01 23:26:18,282 INFO  [Log] TestCase no.: 2 
+2017-08-01 23:26:18,282 INFO  [Log] TestCaseID: download 
+2017-08-01 23:26:18,282 INFO  [Log] sRunMode: yes 
+2017-08-01 23:26:18,282 INFO  [Log] - 
+2017-08-01 23:26:18,282 INFO  [Log] - 
+2017-08-01 23:26:18,282 INFO  [Log] - 
+2017-08-01 23:26:18,282 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:18,282 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:18,282 INFO  [Log] -------------------             download TestStep begins                ------------------- 
+2017-08-01 23:26:18,282 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:18,282 INFO  [Log] ---------------------------------------------------------------------------------------- 
+2017-08-01 23:26:18,282 INFO  [Log] 1st TestStep at row: 7 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 INFO  [Log] Last TestStep at row: 10 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,283 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,284 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,284 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,284 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,284 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,284 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,284 WARN  [Log] No Cell Data is found and return empty cell 
+2017-08-01 23:26:18,284 INFO  [Log] 1st TestData at row: 18 
+2017-08-01 23:26:18,284 INFO  [Log] Last TestData at row: 17 
+2017-08-01 23:26:18,284 INFO  [Log] --------------------------------TestCase download Ended------------------------------------ 
+2017-08-01 23:26:18,284 INFO  [Log] - 
+2017-08-01 23:26:18,284 INFO  [Log] - 
+2017-08-01 23:26:18,284 INFO  [Log] - 
+2017-08-01 23:26:18,284 INFO  [Log] - 
+2017-08-01 23:26:18,284 INFO  [Log] ......No more TestCase with 'Yes' RunMode...... 
+2017-08-01 23:26:18,284 INFO  [Log] ---------------------------------------   E-N-D  --------------------------------------- 

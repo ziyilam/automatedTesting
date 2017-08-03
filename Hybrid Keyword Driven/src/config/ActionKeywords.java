@@ -102,7 +102,7 @@ public class ActionKeywords {
 			Log.info("Action......Try Verify text");
 			DriverScript.sCompareText = driver.findElement(By.xpath(sObjectLocator)).getText();
 			// if(DriverScript.sCompareText.equals(sTestData)){ 
-			if(DriverScript.sCompareText.contains(sTestData)) {
+			if(DriverScript.sCompareText.equalsIgnoreCase(sTestData)) {
 				Log.info("Text verified");
 			}else {
 				DriverScript.bResult = false;

@@ -76,10 +76,8 @@ public class ExcelUtils {
 		int rowCount = ExcelUtils.getRowCount(SheetName);
 		try {
 			for (; i <= rowCount; i++) {
-				// ??equalsIgnoreCase
 				if (!sTestCaseID.equalsIgnoreCase(ExcelUtils.getCellData(i, Constants.Col_TestCaseID, SheetName))) {
 					break;
-
 				}
 			}
 		} catch (Exception e) {

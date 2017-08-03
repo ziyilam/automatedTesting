@@ -163,14 +163,7 @@ public class DriverScript {
 						break;
 							}
 				}
-				/*else {
-					Log.warn("......No such keyword......" + sActionKeyword);
-					bResult = false;
-					Log.info("bResult:..." + bResult + "...for iStartTestStep:..." + iCountTestStep);
-					ExcelUtils.setCellData(Constants.KEYWORD_FAIL, iCountTestStep, Constants.Col_StepResults,
-							Constants.Sheet_TestSteps);
-					break;
-				}*/
+				
 			}
 			if (bKeyword == false) {
 				Log.warn("......No such keyword......" + sActionKeyword);

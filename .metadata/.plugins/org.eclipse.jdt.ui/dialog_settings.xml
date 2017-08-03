@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\apache-log4j-2.8.2-bin" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\zy.lam\eclipse-workspace\Selenium related lib\selenium-java-3.4.0\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\zy.lam\eclipse-workspace" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="DriverScript - Hybrid Keyword Driven" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
